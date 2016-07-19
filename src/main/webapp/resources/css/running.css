@@ -1,0 +1,39 @@
+#calendar-heading{
+	background-color:#079DFB;
+}
+#calendar{
+	background-color:#78C8F6;
+}
+#titleHeader{
+	position:absolute;
+	top:0px;
+	left:0px;
+	padding:10px 0;
+	background-color:#079DFB;
+	display:block;
+	width:100%;
+	text-align:center;
+	color:white;
+	font-size:20px;
+}
+#stu{
+	position:absulote;
+	top:40px;
+}
+#stu label{
+	font-size:18px;
+}
+hr{
+	position:relative;
+	top:20px;
+}
+#refresh{
+	text-align:center;
+	font-size:15px;
+}
+.table-hover tr td{
+	width:50%;
+}
+.temp{
+	height:50px;
+}

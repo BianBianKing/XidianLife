@@ -1,0 +1,86 @@
+*{
+	text-align:center;
+	font-size:40px;
+	margin:0; 
+	padding:0;
+}
+html{ 
+	height:100%;
+}
+body{ 
+	height:100%;
+}
+.myhead b{
+	font-size:45px;
+}
+html,body{
+	height:100%;
+	overflow:auto;
+}
+.pull-right{
+	position:relative;
+	right:20px;
+}
+body{
+	background-image: url("../images/1.jpg");
+	background-repeat:repeat;
+	background-size:100% 100%;
+}
+table{
+	position:relative;
+	height:80%;
+	margin-bottom:20px;
+}
+.table-bordered .tr1 .courseTD{
+	position:relative;
+	padding:0px;
+	width:13%;
+	height:10%;
+}
+.courseTD .courseDIV{
+	width:100%;
+	height:100%;
+	border:0px solid red;
+	border-radius:0px;
+}
+.table-bordered .tr1 .dayTime{
+	padding:0px;
+	dispaly:table-cell;
+	vertical-align:middle;
+}
+hr{
+	border:1px solid #DDD;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.weekTime{
+	
+}
+.weekTime .weekTimeTD{
+	height:80px;
+	line-height:80px;
+}
+.btn-primary{
+	/* height:50%; */
+	/* border:1px solid red; */
+}
+.btn-primary b{
+	color:#000;
+}
+
+
+/* 新手引导 */
+#mask{ height:100%;width:100%;position:absolute; top:0; left:0;background:#000; opacity:0.5; filter:alpha( opacity=50); display:none;}
+#searchTip{ height:100%;width:100%;	position:absolute; top:0; left:0; display:none;}
+#searchTip div{ position:absolute; display:none;}
+#searchTip div a{ position:absolute; width:100px; height:50px; text-indent:-999px; overflow:hidden; cursor:pointer; }
+#searchTip div span{ position:absolute; height:40px; width:40px;  text-indent:-999px; overflow:hidden; cursor:pointer; }
+
+.stepA{ background:url(../images/details.png); width:410px; height:260px; top:400px; left:200px;}
+.stepA a{top:170px; left:160px;border:1px solid red;}
+.stepA span{top:65px; right:25px;border:1px solid red;}
+
+.stepB{ background:url(../images/logout.png); width:410px; height:260px; top:100px; right:100px;}
+.stepB a{top:160px; left:160px; border:1px solid red;}
+.stepB span{ top:75px; right:28px; border:1px solid red; }
